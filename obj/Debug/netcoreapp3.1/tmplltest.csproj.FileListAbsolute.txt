@@ -59,7 +59,6 @@
 /Users/mac/Projects/tmplltest/obj/Debug/netcoreapp3.1/tmplltest.genruntimeconfig.cache
 /Users/mac/Projects/tmplltest/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Http.dll
 /Users/mac/Projects/tmplltest/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/Users/mac/Projects/tmplltest/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/mac/Projects/tmplltest/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/mac/Projects/tmplltest/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/mac/Projects/tmplltest/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll

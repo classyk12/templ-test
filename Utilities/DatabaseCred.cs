@@ -9,9 +9,12 @@ namespace tmpltest.Utilities
         public const string SERVER = "localhost";
         public const string BASEURL = "https://yomomma-api.herokuapp.com/";
 
-        public const string ConnectionString = "Data Source =" + SERVER + ";Initial Catalog =" + "DBNAME; User Id =" + USERNAME + " ; Password=" + PASSWORD;
 
-
+      public static string GetConnectionString()
+        {
+            string connectionString = "Data Source =" + SERVER + ";Initial Catalog =" + "DBNAME;User Id =" + USERNAME + ";Password=" + PASSWORD;
+            return connectionString;
+        }
     }
 }
 

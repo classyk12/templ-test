@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{D908DFAF-F0F4-4495-A837-E9A3A680092F}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="16" Column="56" />
-      <File FileName="Utilities/DatabaseCred.cs" Line="16" Column="2" />
-      <File FileName="Core/Context/IJokeDbContext.cs" Line="12" Column="1" />
-      <File FileName="tmplltest.csproj" Line="26" Column="80" />
-      <File FileName="Core/DataModels/JokeDataObject.cs" Line="4" Column="11" />
-      <File FileName="Utilities/HttpClientHelper.cs" Line="21" Column="38" />
+      <File FileName="Program.cs" Line="45" Column="1" />
+      <File FileName="Utilities/DatabaseCred.cs" Line="21" Column="1" />
+      <File FileName="Core/Context/DbContext.cs" Line="13" Column="60" />
+      <File FileName="Core/DataModels/JokeDataObject.cs" Line="11" Column="1" />
+      <File FileName="Core/DataModels/JokeResponseModel.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +15,6 @@
               <Node name="Core" expanded="True">
                 <Node name="Context" expanded="True" />
                 <Node name="DataModels" expanded="True" />
-                <Node name="Impl" expanded="True" />
               </Node>
               <Node name="Utilities" expanded="True" />
               <Node name="Program.cs" selected="True" />
@@ -31,6 +29,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/mac/Projects/tmplltest/Utilities/HttpClientHelper.cs" relfile="Utilities/HttpClientHelper.cs" line="77" column="1" />
+      <Breakpoint file="/Users/mac/Projects/tmplltest/Program.cs" relfile="Program.cs" line="44" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

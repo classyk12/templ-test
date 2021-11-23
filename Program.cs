@@ -28,10 +28,10 @@ namespace tmplltest
             }
             else
             {
-                List<JokeDataObject> _jokes = new();
+                List<JokeDataObject> _jokes = new List<JokeDataObject>();
                 foreach(var joke in jokes)
                 {
-                    JokeDataObject dbJoke =  new()
+                    JokeDataObject dbJoke =  new JokeDataObject()
                     {
                         Joke = joke.Joke
                     };
@@ -39,10 +39,11 @@ namespace tmplltest
                 }
 
                 //this is bad practice to expose db context this way but for the sake of this test, lets go this route
-                using JokeDbContext context = new();
+                using JokeDbContext context = new JokeDbContext();
                 context.Jokes.AddRangeAsync(_jokes);
                 context.SaveChanges();
-
+                Console.WriteLine("Ughh!! No Jokes found.. Guess who the joke is on now eh ?");
+                Console.ReadKey();
             }
         }
     }
